@@ -2,13 +2,13 @@ version: 0.1
 
 phases:
   build:
-    comments:
+    commands:
       - echo Nothing to do yet
 artifacts:
   files:
-    - images/*
-    - styles/*
-    - buildspec.yml
-    - Darrell J Haynes Resume.doc
-    - favicon.ico
     - index.html
+    - favicon.ico
+    - Darrell J Haynes Resume.doc
+    - styles/*
+    - images/*
+    
